@@ -43,12 +43,24 @@
     min-width: 50px;
 }
 .group_4 {
+    background-color: hsla(var(--igc-success-500));
+    margin: -32px 0 32px;
+    border-width: 1px 1px 1px 1px;
+    border-color: hsla(var(--igc-gray-200));
+    flex-grow: 1;
+    border-style: solid;
+    align-items: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 50px;
+}
+.group_5 {
     min-height: min-content;
     padding: 8px;
     border-color: hsla(var(--igc-gray-300));
+    background-color: hsla(var(--igc-surface-500));
     border-width: 1px 0px 0px 0px;
     justify-content: center;
-    background-color: hsla(var(--igc-surface-500));
     border-style: solid;
     align-items: stretch;
     position: relative;
@@ -69,18 +81,6 @@
 .text_1 {
     margin: 0 16px 8px;
     height: max-content;
-}
-.group_5 {
-    margin: -32px 0 32px;
-    border-width: 1px 1px 1px 1px;
-    background-color: hsla(var(--igc-surface-500));
-    border-color: hsla(var(--igc-gray-200));
-    flex-grow: 1;
-    border-style: solid;
-    align-items: stretch;
-    flex-shrink: 0;
-    position: relative;
-    min-width: 50px;
 }
 .group_6 {
     padding: 16px;
@@ -104,6 +104,11 @@
     height: max-content;
 }
 .group_8 {
+    background-color: hsla(var(--igc-surface-500));
+    margin: 0 0 16px;
+    align-items: stretch;
+}
+.group_9 {
     width: 960px;
     min-height: 50px;
     flex-shrink: 0;
@@ -114,7 +119,7 @@
     color: hsla(var(--igc-gray-900));
     height: max-content;
 }
-.group_9 {
+.group_10 {
     margin: 0 0 32px;
     padding: 0 16px;
     align-items: center;
@@ -127,7 +132,7 @@
     flex-shrink: 0;
     height: max-content;
 }
-.group_10 {
+.group_11 {
     padding: 0 16px;
     border-width: 1px 0px 0px 0px;
     margin: 0 0 16px;
@@ -137,16 +142,11 @@
     flex-shrink: 0;
     height: max-content;
 }
-.group_11 {
+.group_12 {
     overflow: auto;
     align-items: stretch;
     position: relative;
     min-width: 50px;
-}
-.group_12 {
-    background-color: hsla(var(--igc-surface-500));
-    margin: 0 0 16px;
-    align-items: stretch;
 }
 .group_13 {
     margin: 0 0 16px;
