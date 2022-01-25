@@ -1,0 +1,41 @@
+@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+
+<div class="master-view-container column">
+    <div class="group row">
+        <div class="group_2 row">
+            <h6 class="h6">Rapid Fission Inc.</h6>
+            <IgbButton Variant="ButtonVariant.Flat" @onclick="@(e => Navigate("/"))" class="button_1" master-view-scope>
+                Home
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbButton Variant="ButtonVariant.Flat" @onclick="@(e => Navigate("/my-info"))" class="button_1" master-view-scope>
+                My Info
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbButton Variant="ButtonVariant.Flat" Disabled="true" class="button_1" master-view-scope>
+                People
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbButton Variant="ButtonVariant.Flat" Disabled="true" class="button_1" master-view-scope>
+                My Files
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+        </div>
+        <div class="group_1 row">
+            <IgbButton Variant="ButtonVariant.Flat" class="button" master-view-scope>
+                <span class="material-icons">notifications</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" Shape="AvatarShape.Circle"></IgbAvatar>
+        </div>
+    </div>
+    <div class="view-container">@Body</div>
+</div>
+
+@code {
+    private void Navigate(string path)
+    {
+        NavigationManager.NavigateTo(path);
+    }
+}

@@ -1,0 +1,130 @@
+@page "/my-info"
+@inject NavigationManager NavigationManager
+
+<div class="my-info-container column">
+    <div class="group row">
+        <div class="group_5 group_9 row">
+            <div class="group_2 row">
+                <img src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" class="image" />
+            </div>
+            <div class="group_12 column">
+                <div class="group_12 element_1 column">
+                    <h4 class="element">Erin Brockovich</h4>
+                    <p class="typography__subtitle-1 element">Water Quality Specialist</p>
+                </div>
+                <div class="group_6 row">
+                    <IgbButton Variant="ButtonVariant.Flat" class="button" my-info-scope>
+                        personal
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="button_1" my-info-scope>
+                        job
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="button_1" my-info-scope>
+                        time-off
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="button_1" my-info-scope>
+                        emergency
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="button_1" my-info-scope>
+                        documents
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="button_1" my-info-scope>
+                        benefits
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="button_1" my-info-scope>
+                        pay info
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="group_1 row">
+        <div class="group_5 group_15 row">
+            <div class="group_3 column">
+                <div class="group_11 column">
+                    <p class="typography__subtitle-2 text_1">Hire Date</p>
+                    <p class="typography__body-2 element_2">Feb 01, 2010</p>
+                    <p class="typography__caption element_2">10y-10m-7d</p>
+                </div>
+                <div class="group_11 column">
+                    <div class="group_13 group_14 group_15 row">
+                        <span class="material-icons content icon_1">waves</span>
+                        <p class="typography__body-2 element_2 element_3">Waste water mgmt.</p>
+                    </div>
+                    <div class="group_13 group_14 group_15 row">
+                        <span class="material-icons content icon_1">domain</span>
+                        <p class="typography__body-2 element_2 element_3">Nuclear Disposal</p>
+                    </div>
+                    <div class="group_13 group_14 group_15 row">
+                        <span class="material-icons content icon_1">location_on</span>
+                        <p class="typography__body-2 element_2 element_3">California, USA</p>
+                    </div>
+                </div>
+                <div class="group_7 column">
+                    <p class="typography__subtitle-2 text_1">Manager</p>
+                    <div class="group_9 group_13 row">
+                        <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar1.png" Shape="AvatarShape.Circle" class="content" my-info-scope></IgbAvatar>
+                        <p class="typography__body-2 element_2 element_3">Donni Darko</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group_8 column">
+                <div class="group_9 element_1 group_14 group_16 row">
+                    <span class="material-icons icon">perm_contact_calendar</span>
+                    <h6 class="element_2 element_3">Personal</h6>
+                </div>
+                <p class="typography__subtitle-1 element_1 element_2">Basic Information</p>
+                <div class="element_1 group_14 group_15 group_16 row">
+                    <IgbInput DisplayType="InputType.Text" Value="Erin" Label="First name" Disabled="true" Outlined="true" class="user-input" my-info-scope></IgbInput>
+                    <IgbInput DisplayType="InputType.Text" Value="First name" Label="Middle name" Disabled="true" Outlined="true" class="user-input" my-info-scope></IgbInput>
+                    <IgbInput DisplayType="InputType.Text" Value="Brockovich" Label="Last name" Disabled="true" Outlined="true" class="user-input_1" my-info-scope></IgbInput>
+                </div>
+                <div class="element_1 group_14 group_15 group_16 row">
+                    <span class="user-input">Select not yet available in Blazor</span>
+                    <span class="user-input_1">Select not yet available in Blazor</span>
+                </div>
+                <div class="element_1 group_14 group_15 group_16 row">
+                    <IgbInput DisplayType="InputType.Text" Value="123 Wallaby Lane" Label="Address" Outlined="true" class="input" my-info-scope></IgbInput>
+                </div>
+                <div class="group_10 row">
+                    <IgbInput DisplayType="InputType.Text" Value="Scramento" Label="City" Outlined="true" class="user-input" my-info-scope></IgbInput>
+                    <IgbInput DisplayType="InputType.Text" Value="CA" Label="State" Outlined="true" class="input_1" my-info-scope></IgbInput>
+                    <IgbInput DisplayType="InputType.Number" Value="94203" Label="Zip/Postal Code" Outlined="true" class="user-input_1" my-info-scope></IgbInput>
+                </div>
+                <p class="typography__subtitle-1 element_1 element_2">Contact</p>
+                <div class="group_10 row">
+                    <IgbInput DisplayType="InputType.Tel" Label="Home phone" Outlined="true" class="user-input" my-info-scope>
+                        <span slot="prefix">
+                            <span class="material-icons icon_1">home</span>
+                        </span>
+                    </IgbInput>
+                    <IgbInput DisplayType="InputType.Tel" Label="Work phone" Outlined="true" class="user-input" my-info-scope>
+                        <span slot="prefix">
+                            <span class="material-icons icon_1">domain</span>
+                        </span>
+                    </IgbInput>
+                    <IgbInput DisplayType="InputType.Tel" Label="Mobile phone" Outlined="true" class="input_2" my-info-scope>
+                        <span slot="prefix">
+                            <span class="material-icons icon_1">person</span>
+                        </span>
+                    </IgbInput>
+                </div>
+                <IgbDatePicker Value="2022-01-13T00:00" class="date-picker" my-info-scope></IgbDatePicker>
+                <IgbInput Label="Date" Outlined="true" class="input_3" my-info-scope></IgbInput>
+            </div>
+        </div>
+    </div>
+    <div class="group_4 row">
+        <p class="typography__body-2 text">(c) 2020 IndigoDesign Inc.</p>
+    </div>
+</div>
+
+@code {
+}

@@ -1,0 +1,168 @@
+@page "/"
+@inject NavigationManager NavigationManager
+
+<div class="home-container column">
+    <div class="group row">
+        <div class="group_8 group_16 row">
+            <span class="material-icons icon_1">home</span>
+            <h4 class="h4">Home</h4>
+        </div>
+    </div>
+    <div class="group_2 row">
+        <div class="group_8 group_17 row">
+            <div class="group_3 column">
+                <div class="group_6 row">
+                    <IgbAvatar Src="assets/53c4f9a7b7f5f730460a0235b717b99679251327.png" Shape="AvatarShape.Circle" Size="SizableComponentSize.Medium" class="avatar" home-scope></IgbAvatar>
+                    <div class="group_15 group_17 column">
+                        <h5 class="element_1">Erin Brockovich</h5>
+                        <p class="typography__body-1 element_1">Water quality specialist</p>
+                    </div>
+                </div>
+                <div class="group_12 group_18 row">
+                    <div class="group_7 column">
+                        <p class="typography__subtitle-2 text_3">Open PTO</p>
+                        <span class="material-icons icon">date_range</span>
+                        <p class="typography__body-2 text_4">8.5 days used (YTD)</p>
+                        <p class="typography__caption text_4">1 day scheduled</p>
+                    </div>
+                    <div class="group_15 group_16 element_1 column">
+                        <p class="typography__subtitle-2 text_3">Bereavement leave</p>
+                        <div class="group_14 row">
+                            <h6 class="element">0.0</h6>
+                            <span class="material-icons icon_2">date_range</span>
+                        </div>
+                        <p class="typography__body-2 text_4">Days available</p>
+                        <p class="typography__caption text_4">0 day scheduled</p>
+                    </div>
+                </div>
+                <div class="group_9 row">
+                    <IgbButton Variant="ButtonVariant.Contained" class="button" home-scope>
+                        <span class="material-icons">send</span>
+                        <span>Request time off</span>
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                    <IgbButton Variant="ButtonVariant.Flat" class="button_1" home-scope>
+                        <span class="material-icons">email</span>
+                        <IgbRipple></IgbRipple>
+                    </IgbButton>
+                </div>
+                <div class="group_11 column">
+                    <p class="typography__subtitle-2 text_1">What's the buzz</p>
+                    <div class="group_11 list_scroll column">
+                        <IgbList class="list" home-scope>
+                            <IgbListItem class="list-item" home-scope>
+                                <div slot="start">
+                                    <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar3.png" Shape="AvatarShape.Circle"></IgbAvatar>
+                                </div>
+                                <div slot="title">Ethan Hunt</div>
+                                <div slot="subtitle">Birthday, Oct 1</div>
+                                <div slot="end">
+                                    <span class="material-icons icon_3">cake</span>
+                                </div>
+                            </IgbListItem>
+                            <IgbListItem class="list-item" home-scope>
+                                <div slot="start">
+                                    <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar5.png" Shape="AvatarShape.Circle"></IgbAvatar>
+                                </div>
+                                <div slot="title">Luke Skywalker</div>
+                                <div slot="subtitle">25th work-anniversary</div>
+                                <div slot="end">
+                                    <span class="material-icons icon_3">flag</span>
+                                </div>
+                            </IgbListItem>
+                            <IgbListItem class="list-item" home-scope>
+                                <div slot="start">
+                                    <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar1.png" Shape="AvatarShape.Circle"></IgbAvatar>
+                                </div>
+                                <div slot="title">Donnie Darko</div>
+                                <div slot="subtitle">On vacation, Oct 10-23</div>
+                                <div slot="end">
+                                    <span class="material-icons icon_3">beach_access</span>
+                                </div>
+                            </IgbListItem>
+                            <IgbListItem class="list-item" home-scope>
+                                <div slot="start">
+                                    <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar2.png" Shape="AvatarShape.Circle"></IgbAvatar>
+                                </div>
+                                <div slot="title">Edna Mode</div>
+                                <div slot="subtitle">Visiting customer</div>
+                                <div slot="end">
+                                    <span class="material-icons icon_3">airplanemode_active</span>
+                                </div>
+                            </IgbListItem>
+                        </IgbList>
+                    </div>
+                </div>
+            </div>
+            <div class="group_5 column">
+                <div class="group_12 group_13 column">
+                    <div class="group_1 row">
+                        <p class="typography__subtitle-2 text_2">What's happening at Rapid Fission Inc.</p>
+                        <p class="typography__subtitle-2 text_2">Announcements (1)</p>
+                    </div>
+                    <IgbList class="list" home-scope>
+                        <IgbListItem class="list-item" home-scope>
+                            <div slot="start">
+                                <IgbAvatar Src="assets/a06650fce7091f420c440f26201d916f775db29d.png" Shape="AvatarShape.Circle"></IgbAvatar>
+                            </div>
+                            <div slot="title">George Bailey posted  an announcement, awards, and call for nominations</div>
+                            <div slot="subtitle">19 days ago</div>
+                            <div slot="end">
+                                <span class="material-icons icon_3">clear</span>
+                            </div>
+                        </IgbListItem>
+                    </IgbList>
+                </div>
+                <div class="group_17 column">
+                    <div class="group_10 row">
+                        <p class="typography__subtitle-2 element">MY BENEFITS</p>
+                    </div>
+                </div>
+                <IgbList class="list" home-scope>
+                    <IgbListItem class="list-item" home-scope>
+                        <div slot="start">
+                            <IgbAvatar Shape="AvatarShape.Circle" class="avatar_1" home-scope>
+                                <span class="material-icons">security</span>
+                            </IgbAvatar>
+                        </div>
+                        <div slot="title">Radiation protection health insurance planre</div>
+                        <div slot="subtitle">$600 every other week</div>
+                    </IgbListItem>
+                    <IgbListItem class="list-item" home-scope>
+                        <div slot="start">
+                            <IgbAvatar Shape="AvatarShape.Circle" class="avatar_1" home-scope>
+                                <span class="material-icons">remove_red_eye</span>
+                            </IgbAvatar>
+                        </div>
+                        <div slot="title">20/20 Vision plans here</div>
+                        <div slot="subtitle">$234 every other week</div>
+                    </IgbListItem>
+                    <IgbListItem class="list-item" home-scope>
+                        <div slot="start">
+                            <IgbAvatar Shape="AvatarShape.Circle" class="avatar_1" home-scope>
+                                <span class="material-icons">child_friendly</span>
+                            </IgbAvatar>
+                        </div>
+                        <div slot="title">Child care savings</div>
+                        <div slot="subtitle">$4955 remaining</div>
+                    </IgbListItem>
+                    <IgbListItem class="list-item" home-scope>
+                        <div slot="start">
+                            <IgbAvatar Shape="AvatarShape.Circle" class="avatar_1" home-scope>
+                                <span class="material-icons">security</span>
+                            </IgbAvatar>
+                        </div>
+                        <div slot="title">Fire hazard protection  </div>
+                        <div slot="subtitle">On da house!</div>
+                    </IgbListItem>
+                </IgbList>
+            </div>
+        </div>
+    </div>
+    <div class="group_4 row">
+        <p class="typography__body-2 text">(c) 2020 Rapid Fission Inc.</p>
+    </div>
+</div>
+
+@code {
+}
