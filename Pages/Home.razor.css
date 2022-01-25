@@ -30,11 +30,11 @@
     min-width: 50px;
 }
 .group_3 {
+    background-color: hsla(var(--igc-secondary-400));
     width: 300px;
     margin: -32px 16px 32px 0;
     padding: 0 0 16px;
     border-width: 1px 1px 1px 1px;
-    background-color: hsla(var(--igc-surface-500));
     border-color: hsla(var(--igc-gray-200));
     border-style: solid;
     align-items: stretch;
@@ -144,11 +144,17 @@
     min-width: 50px;
 }
 .group_12 {
+    background-color: hsla(var(--igc-surface-500));
     margin: 0 0 16px;
     align-items: stretch;
 }
 .group_13 {
-    background-color: hsla(var(--igc-surface-500));
+    margin: 0 0 16px;
+    align-items: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 50px;
+    height: max-content;
 }
 .text_3 {
     width: max-content;
@@ -181,12 +187,6 @@
 }
 .group_17 {
     align-items: stretch;
-}
-.group_18 {
-    flex-shrink: 0;
-    position: relative;
-    min-width: 50px;
-    height: max-content;
 }
 .element_1 {
     height: max-content;
