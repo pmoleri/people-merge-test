@@ -1,6 +1,7 @@
 .home-container {
     height: 100%;
     align-items: stretch;
+    background-color: yellow;
 }
 .group {
     height: 144px;
