@@ -13,6 +13,7 @@ RegisterIgniteUI(builder.Services);
 
 await builder.Build().RunAsync();
 
+// register deps
 void RegisterIgniteUI(IServiceCollection services)
 {
     services.AddIgniteUIBlazor(typeof(IgbButtonModule));
